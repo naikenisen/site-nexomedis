@@ -28,6 +28,25 @@
     margin: 0 auto;
   }
 
+  .hero-visual-frame {
+    transform: none;
+  }
+
+  .hero-visual-badge {
+    left: 12px;
+    bottom: 14px;
+  }
+
+  .hero-blueprint-overlay {
+    top: 12px;
+    right: 12px;
+  }
+
+  .hero-measure {
+    left: 14px;
+    right: 14px;
+  }
+
   .mission-stats {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -131,6 +150,35 @@
 
   .hero-scroll-indicator {
     display: none;
+  }
+
+  .hero-visual-glow {
+    inset: 10% -2% -2%;
+    filter: blur(16px);
+  }
+
+  .hero-visual-badge {
+    position: static;
+    margin-top: 14px;
+    margin-inline: auto;
+    width: fit-content;
+  }
+
+  .hero-blueprint-overlay {
+    position: static;
+    margin: 0 auto 10px;
+    width: fit-content;
+    text-align: center;
+  }
+
+  .hero-measure {
+    position: static;
+    margin-top: 10px;
+  }
+
+  .hero-corner {
+    width: 22px;
+    height: 22px;
   }
 
   /* Sections */
